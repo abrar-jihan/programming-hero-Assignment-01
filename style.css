@@ -32,7 +32,6 @@ p {
   font-size: 16px;
   color: #0d1321;
   line-height: 26px;
-  margin-bottom: 32px;
 }
 button {
   font-family: "Azeret Mono", monospace;
@@ -47,6 +46,7 @@ button {
 .btn-second {
   color: white;
   background-color: black;
+  margin-top: 32px;
 }
 header {
   margin-bottom: 75px;
@@ -58,7 +58,7 @@ nav {
   padding: 35px 150px;
 }
 section {
-  background-image: url(./assets/hero-bg.png);
+  background-image: url();
 }
 .hero {
   height: 650px;
@@ -73,7 +73,7 @@ section {
 }
 /*  */
 .first-main-content {
-  background-color: hsla(222, 43%, 9%, 0.02);
+  background-color: hsla(222, 43%, 9%, 0.025);
   margin: 75px 150px 90px;
 }
 .first-main-content-inner {
@@ -82,6 +82,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 32px;
 }
 div.first-one {
   display: flex;
@@ -93,7 +94,10 @@ div.first-one {
 }
 .inner-content {
   padding: 48px;
-  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.2));
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.25));
+}
+.inner-content-sec {
+  background-image: linear-gradient(to left, white, rgba(255, 255, 255, 0.25));
 }
 .content {
   display: flex;
@@ -109,4 +113,6 @@ div.first-one {
   font-size: 20px;
   border: 1px solid #0d1321;
   padding: 12px 20px;
+  background-color: white;
+  margin-top: 32px;
 }
