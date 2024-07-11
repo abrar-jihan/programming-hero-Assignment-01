@@ -10,6 +10,7 @@ h1 {
   font-weight: 800;
   font-size: 48px;
   margin-bottom: 24px;
+  line-height: 68px;
 }
 h2 {
   font-weight: 800;
@@ -19,11 +20,11 @@ h2 {
 h3 {
   font-weight: 800;
   font-size: 28px;
-  margin-bottom: 24px;
 }
 h4 {
   font-weight: 700;
   font-size: 24px;
+  line-height: 36px;
   margin-bottom: 16px;
   color: hsla(222, 43%, 9%, 0.7);
 }
@@ -37,6 +38,7 @@ button {
   font-family: "Azeret Mono", monospace;
   font-weight: 600;
   font-size: 20px;
+  cursor: pointer;
 }
 .btn-primary {
   border: 1px solid #0d1321;
@@ -77,14 +79,21 @@ nav {
 }
 .sec-main-content {
   margin: 75px 150px 90px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; 
-  gap: 40px; */
 }
 .third-main-content {
   margin: 75px 150px 90px;
+}
+.last-main-section {
+  margin: 75px 150px 90px;
+  background-image: linear-gradient(
+      to right,
+      hsla(0, 0%, 0%, 0.5),
+      hsla(0, 0%, 0%, 0.7),
+      hsla(0, 0%, 0%, 0.5)
+    ),
+    url(assets/handshake.jpg);
+  background-position: center;
+  border-radius: 16px;
 }
 .main-content-inner {
   padding: 80px 97px;
@@ -92,7 +101,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
 }
 .first-one {
   display: flex;
@@ -136,11 +145,14 @@ iframe {
   padding: 32px;
   height: 615px;
 }
+.another-content {
+  text-align: center;
+}
 .card-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 36px;
   width: 100%;
 }
 .cards {
@@ -164,4 +176,37 @@ iframe {
   text-decoration: underline;
   margin-left: -5px;
   margin-top: 25px;
+}
+.footer-heading {
+  color: white;
+  margin-bottom: 16px;
+}
+.footer-para {
+  width: 600px;
+  margin-bottom: 32px;
+  padding: 0;
+  color: rgb(251, 251, 251);
+  font-size: 16px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+input[type="text"] {
+  width: 548px;
+  border-radius: 8px;
+  padding: 20px;
+  border: none;
+  font-family: "Azeret Mono", monospace;
+}
+input[type="submit"] {
+  width: 120px;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 700;
 }
