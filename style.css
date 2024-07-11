@@ -57,6 +57,9 @@ nav {
   justify-content: space-between;
   padding: 35px 150px;
 }
+section {
+  background-image: url(./assets/hero-bg.png);
+}
 .hero {
   height: 650px;
   width: auto;
