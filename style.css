@@ -83,6 +83,9 @@ nav {
   flex-direction: column; 
   gap: 40px; */
 }
+.third-main-content {
+  margin: 75px 150px 90px;
+}
 .main-content-inner {
   padding: 80px 97px;
   display: flex;
@@ -132,5 +135,33 @@ iframe {
   overflow: hidden;
   padding: 32px;
   height: 615px;
+}
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+.cards {
+  width: 365px;
+  height: 325px;
+  padding: 40px;
   border-radius: 16px;
+}
+.card1 {
+  background-color: hsla(12, 100%, 56%, 0.05);
+}
+.card2 {
+  background-color: hsla(220, 100%, 45%, 0.05);
+}
+.card3 {
+  background-color: hsla(52, 100%, 50%, 0.05);
+}
+.last-btn {
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: underline;
+  margin-left: -5px;
+  margin-top: 25px;
 }
