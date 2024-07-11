@@ -9,15 +9,30 @@ body {
 h1 {
   font-weight: 800;
   font-size: 48px;
+  margin-bottom: 24px;
 }
 h2 {
   font-weight: 800;
-  font-size: 28px;
+  font-size: 32px;
+  margin-bottom: 24px;
 }
-
+h3 {
+  font-weight: 800;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: hsla(222, 43%, 9%, 0.7);
+}
 p {
   font-weight: 400;
   font-size: 16px;
+  color: #0d1321;
+  line-height: 26px;
+  margin-bottom: 32px;
 }
 button {
   font-family: "Azeret Mono", monospace;
@@ -33,14 +48,14 @@ button {
   color: white;
   background-color: black;
 }
+header {
+  margin-bottom: 75px;
+}
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 35px 150px;
-}
-section {
-  background-image: url(/assets/hero-bg.png);
 }
 .hero {
   height: 650px;
@@ -51,4 +66,44 @@ section {
   justify-content: center;
   padding: 45px 220px;
   text-align: center;
+  background-image: url(./assets/hero-bg.png);
+}
+/*  */
+.first-main-content {
+  background-color: hsla(222, 43%, 9%, 0.02);
+  margin: 75px 150px 90px;
+}
+.first-main-content-inner {
+  padding: 80px 97px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.first-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 47px 48px 47px;
+}
+.inner-content {
+  padding: 48px;
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.2));
+}
+.content {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-one {
+  width: 60%;
+  text-align: left;
+}
+.button {
+  font-size: 20px;
+  border: 1px solid #0d1321;
+  padding: 12px 20px;
 }
